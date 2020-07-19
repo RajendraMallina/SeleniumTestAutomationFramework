@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="newUser"/>
+        <include name="oldUser"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.week3.rest_api_testing.RestAPIPostTest">
+        <methods>
+          <include name="successCodeOfOldUserRegistrationTest"/>
+          <include name="statusCodeOfOldUserRegistrationTest"/>
+          <include name="successCodeOfNewUserRegistrationTest"/>
+          <include name="statusCodeOfNewUserRegistrationTest"/>
+        </methods>
+      </class> <!-- com.epam.week3.rest_api_testing.RestAPIPostTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37916" started-at="2020-07-18T10:25:25Z" finished-at="2020-07-18T10:26:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37916" started-at="2020-07-18T10:25:25Z" finished-at="2020-07-18T10:26:03Z">
+      <class name="com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="setUP" is-config="true" duration-ms="4760" started-at="2020-07-18T10:25:20Z" finished-at="2020-07-18T10:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="amazonLogInTest()[pri:1, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="amazonLogInTest" duration-ms="13234" started-at="2020-07-18T10:25:25Z" finished-at="2020-07-18T10:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogInTest -->
+        <test-method status="PASS" signature="searchItemInHomePageTest()[pri:2, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="searchItemInHomePageTest" duration-ms="3158" started-at="2020-07-18T10:25:38Z" finished-at="2020-07-18T10:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemInHomePageTest -->
+        <test-method status="PASS" signature="selectRandomItemsFromSearchList()[pri:3, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="selectRandomItemsFromSearchList" duration-ms="7371" started-at="2020-07-18T10:25:41Z" finished-at="2020-07-18T10:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomItemsFromSearchList -->
+        <test-method status="PASS" signature="navigateToTheCartPage()[pri:0, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="navigateToTheCartPage" duration-ms="5557" started-at="2020-07-18T10:25:49Z" depends-on-methods="com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester.selectRandomItemsFromSearchList" finished-at="2020-07-18T10:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTheCartPage -->
+        <test-method status="PASS" signature="proccedToPayment()[pri:0, instance:com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester@57baeedf]" name="proccedToPayment" duration-ms="8541" started-at="2020-07-18T10:25:54Z" depends-on-methods="com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester.navigateToTheCartPage" finished-at="2020-07-18T10:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proccedToPayment -->
+      </class> <!-- com.epam.pageObjectModelWithPageFactoryPattren.TestNGAmazonTester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
